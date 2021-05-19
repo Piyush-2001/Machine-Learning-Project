@@ -188,13 +188,13 @@ dep_pred1
 
 score1 = r2_score(dep1_test,dep_pred1)
 print(score1)
-
+# 0.9432620651349661
 dep_pred2 = regressor_2.predict(ind_test2)
 dep_pred2
 
 score2 = r2_score(dep2_test, dep_pred2)
 print(score2)
-
+# 0.942480689510909
 """
 
 ---
